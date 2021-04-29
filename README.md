@@ -2,17 +2,17 @@
 
 Prifina is a commercial open source data technology company headquartered in San Francisco, with another office in Helsinki
 
-Prifina provides a software platform, that is;
-- **Data-driven** – Prifina's platform can provide you with the data to deliver dynamic and highly personalized content to your users.
-- **Serverless** – Apps on Prifina run their backends directly on Prifina's serverless, React framework, so you can spend less time maintaining and more time building exceptional experiences for your users. No servers also means no logs, and full privacy.
+Prifina provides a software platform for building applications on the *user's side*. It's:
+- **Data-driven** – Prifina's platform can provide you with the data to deliver dynamic and highly personalized content to your users. Your applications run on the users side, using  personal data without any data sharing.
+- **Serverless** – Apps on Prifina run their backends directly on Prifina's serverless, React framework, so you can spend less time maintaining and more time building exceptional experiences for your users. No servers also means no logs, and fully private apps.
 - **CCPA/ GDPR compliant** – Using Prifina means your users own their data and provide you with access. This model is inherently compliant with GDPR and CCPA, and many others privacy regulations around the world.
   
 # About Prifina
 ## Our Core Concept
-Prifina provides a personal computing platform in the cloud for individuals to manage their personal data and empower them to activate their data in fundamentally new ways. For developers and service providers, Prifina provides a platform to develop and publish new types of personal applications and personalized experiences for their customers. Data always stays under the user's full control and data processing stays close to the user, and may limit the overall data liability.
+Prifina provides a personal computing platform in the cloud for individuals to manage their personal data and empower them to activate their data in fundamentally new ways. For developers and service providers, Prifina provides a platform to develop new types of personal applications and personalized experiences for their customers. Data always stays under the user's full control and data processing stays close to the user, and may limit the overall data liability.
 ## How it Works
-### User-Held Data
-Prifina users have the ability to bring their personal data into their own personal cloud, then install applications to their Personal Data Cloud and Sandbox. This Personal Cloud is an individual user AWS instance (expanded to other cloud infrastructures depending on the context), as well as open source software and tools allowing easy importing, uploading, managing of personal data and the data itself that that software allows you to bring into your Personal Data Cloud. This data is organized into objects in the local environment, and further productized and productizable into different profiles, segments, etc., that support different use cases and the data is usable in the “Local” Cloud Environment.
+### Apps on the Users Side
+Prifina users have the ability to bring their personal data into their own personal cloud, then install applications to their Prifina Account and Personal Data Cloud. This Personal Cloud is an individual user AWS instance (expanded to other cloud infrastructures depending on the context), as well as open source software and tools allowing easy importing, uploading, managing of personal data and the data itself that that software allows you to bring into your Personal Data Cloud. This data is organized into objects in the local environment, and further productized and productizable into different profiles, segments, etc., that support different use cases and the data is usable in the “Local” Cloud Environment.
 
 ## Prifina Apps
 Prifina's goal is to provide a platform where users have the best and fullest copy of their personal data and are empowered through having absolute control over their data to gain personal value. Developers are empowered to create a new kind of data-driven experience for users, while respecting their data privacy.
