@@ -70,7 +70,7 @@ The App Market has the following fields that need to be filled out to describe t
 - App name
 - Description [max 250 characters]
 - Key Features 
-- Application Screenshot Images [SVG, GIF, JPEG under 5mb]
+- Mininum 3 Application Screenshot Images [SVG, GIF, JPEG under 5mb]
 - If applicable, Widget Static image (displayed when widget is moved)
 - If applicable, Widget Settings list and data input 
 - App Publisher name 
