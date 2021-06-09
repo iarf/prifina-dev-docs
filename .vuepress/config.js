@@ -21,7 +21,7 @@ module.exports = {
 			},
 			'/quickstart/',
 			{
-				title: 'Components'
+				title: 'Components',
 				path: '/components/',
 			}
 			
