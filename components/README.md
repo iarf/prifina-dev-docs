@@ -2,7 +2,9 @@
 
  How  to import?
  
+ ```
 import { usePrifina } from "@prifina/hooks";
+```
  
 
 It’s good to use the ‘latest’ for version number to stay in touch with latest releases.
@@ -17,6 +19,7 @@ Creates custom context object using PrifinaContext. After it returns current mem
 
 Memoized means that the cached value of a complex function is called. If the arguments of the function that is called are the same, computing of the function is not needed again it just simply uses stored value.
 
+```
 export const usePrifina = () => {
  const prifinaContext = useContext(PrifinaContext);
  const prifina = useMemo(() => {
@@ -24,9 +27,12 @@ export const usePrifina = () => {
  }, [prifinaContext]);
  return prifina;
 };
+```
+
  
 ### How is it used?
 
+```
 const {
    check,
    currentUser,
@@ -40,9 +46,12 @@ const {
  } = usePrifina();
 
  const widget = new Prifina({ appId: "name" });
+```
+
 
 ### What can be used for usePrifina hook? 
  
+ ```
 providerContext.current = {
    check,
    activeRole,
@@ -61,9 +70,11 @@ providerContext.current = {
    API: API.current,
  
  };
- 
+ ```
+
 Usage
  
+```
 const appID = "yourWidgetName";
  
 // init hook and get provider api services...
@@ -89,9 +100,11 @@ useEffect(async () => {
    // register datasource modules
    registerHooks(appID, [hook]);
    ...}
- 
+ ```
+
 ### Example of usage in Chat app
  
+```
 useEffect(async () => {
    onUpdateRef.current = onUpdate(appID, updateTest);
    const addressBook = await prifina.core.queries.getAddressBook();
@@ -115,9 +128,11 @@ useEffect(async () => {
  
    console.log(prifina);
  }, []);
+ ```
+
  
- 
-.... later on
+```
+ later on
  
          <MessageBox>
            {messages.length > 0 && (
@@ -129,7 +144,8 @@ useEffect(async () => {
              />
            )}
          </MessageBox>
- 
+ ```
+
  
  
  
@@ -139,6 +155,7 @@ useEffect(async () => {
 Examples of custom query builder data connectors for data usage
 Op
 
+```
 const Op = {
  eq: Symbol.for("="),
  ne: Symbol.for("!="),
@@ -161,10 +178,12 @@ _fn
 
 function _fn(fnName, fnCol, fnOpts) {
  }
+```
 
 
 buildFilter
 
+```
 function buildFilter(filter) {
  let s = "";
  const logicalOperators = Object.getOwnPropertySymbols(filter);
@@ -211,4 +230,5 @@ function buildFilter(filter) {
  }
  return s;
 }
+```
 
