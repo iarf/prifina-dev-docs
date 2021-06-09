@@ -20,8 +20,6 @@ module.exports = {
 				path: '/'
 			},
 			'/quickstart/',
-			{
-				},
 			'/components/',
 			{
 				title: 'Data Access',
