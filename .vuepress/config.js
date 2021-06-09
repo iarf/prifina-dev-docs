@@ -17,13 +17,13 @@ module.exports = {
 		sidebar: [
 			{
 				title: 'About Prifina',
-				path: '/'
+				path: '/',
 			},
 			'/quickstart/',
 			{
 				title: 'Components',
 				path: '/components/',
-			}
+			},
 			
 			{
 				title: 'Data Access',
