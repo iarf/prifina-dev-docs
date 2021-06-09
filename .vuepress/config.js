@@ -21,6 +21,9 @@ module.exports = {
 			},
 			'/quickstart/',
 			{
+				},
+			'/components/',
+			{
 				title: 'Data Access',
 				path: '/data/',
 				children: [
